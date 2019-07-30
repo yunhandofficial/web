@@ -1,0 +1,30 @@
+/*주석이야 이거는*/
+#hello {
+    font-size: 50px;
+}
+
+#welcome {
+    font-size: 200%;
+}
+
+#lunch {
+    font-size: 10em;    
+}
+
+div {
+    width: 50%;
+}
+
+h1 {
+    width:50%;
+}
+
+#snack {
+    font-size: 0.5rem;
+}
+
+#menu {
+    background-color: red;
+    width: 50vw;
+    height: 50vh;
+}
