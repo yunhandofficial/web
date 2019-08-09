@@ -1,0 +1,48 @@
+/* 모두에게 적용
+* {
+    color:rebeccapurple;
+} 
+*/
+
+/* 태그 셀렉터 */
+/* important는 최우선순위! */
+
+h1 {
+    color: red !important;
+}
+
+/* 그룹 */
+h1, h2 {
+    background-color: gray;
+}
+
+/* 클래스 */
+
+.class-selector {
+    color: plum;
+}
+
+/* 아이디 */
+#id-selector {
+    color: navy;
+}
+
+/* 
+셀렉터의 우선순위는
+id>class>tag
+ */
+
+ /* 자식셀렉터 */
+ ul > li {
+     color: rosybrown;
+ }
+
+ /* 바로뒤에 인접한 형제 */
+ p + li {
+     color: brown;
+ }
+
+ /* 그뒤로 쭉 형제 */
+ p ~ li {
+     color: orange;
+ }

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{%block body%}
+<center>
+<img src="https://attach.s.op.gg/logo/20190730135214.bb87673d92d8dff6a5de5c104187e4b4.png" alt="">
+</center>
+<form action="/search">
+  <center>
+  <div class="form-group">
+    <label for="summoner">소환사명</label>
+    <input type="text" class="form-control d-inline col-6" id="summoner" name="summoner">
+    <button type="submit" class="btn btn-primary d-inline">한번봐볼까?</button>
+  </div>
+  </center>
+</form>
+{% endblock %}

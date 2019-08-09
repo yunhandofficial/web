@@ -1,0 +1,13 @@
+{% extends 'base.html'%}
+{%block body%}
+<h1>여기는 카드형식 일제목록</h1>
+{%for product in products%}
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">상품명 : {{product[0]}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">카테고리 : {{product[1]}}</h6>
+      <p class="card-text">대체상품: {{product[2]}}</p>
+    </div>
+  </div>
+  {%endfor%}
+{% endblock %}
